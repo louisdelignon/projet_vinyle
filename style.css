@@ -322,6 +322,7 @@ a:hover { text-decoration: underline; }
 /* Photo en bas, réduite */
 .cover-photo {
   background: var(--color-photo);
+  position: relative;
 }
 
 .cover-photo img {
@@ -350,6 +351,7 @@ a:hover { text-decoration: underline; }
 .perf-photo {
   margin-top: 36px;
   background: var(--color-photo);
+  position: relative;
 }
 
 .perf-photo img {
@@ -610,6 +612,18 @@ a:hover { text-decoration: underline; }
 .bio-photo {
   margin-top: 28px;
   background: var(--color-photo);
+  position: relative;
+}
+
+.photo-credit {
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  font-size: 8px;
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.04em;
+  pointer-events: none;
+  user-select: none;
 }
 
 .bio-photo img {
